@@ -1,6 +1,6 @@
 # bksys-account-ms
 
-Operations Rule Micro Service
+Account Micro Service
 
 ## Setup project
 
