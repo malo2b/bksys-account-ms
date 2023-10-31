@@ -1,0 +1,10 @@
+# Check flake8
+repos:
+  - repo: local
+    hooks:
+      - id: lint
+        name: lint
+        entry: bash -c "poetry run flake8"
+        language: system
+        types: [ python ]
+        pass_filenames: false
