@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "bksys-account-ms"
+name = "bksys_account_ms"
 version = "0.1.0"
 description = ""
 authors = ["malo.girard <malo.girard@jellysmack.com>"]
@@ -11,6 +11,11 @@ fastapi = "^0.104.1"
 pydantic = "^2.4.2"
 pydantic-settings = "^2.0.3"
 uvicorn = "^0.23.2"
+prometheus-fastapi-instrumentator = "^6.1.0"
+sqlalchemy = "^2.0.23"
+python-logging-loki = "^0.3.1"
+aiomysql = "^0.2.0"
+cryptography = "^41.0.7"
 
 
 [tool.poetry.group.dev.dependencies]

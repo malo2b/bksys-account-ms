@@ -1,4 +1,4 @@
-# bksys-account-ms
+# bksys_account_ms
 
 Account Micro Service
 
@@ -15,7 +15,7 @@ poetry install && poetry shell
 
 ### Run application for development
 ```
-uvicorn bksys-account-ms:app --reload --port 8082
+uvicorn bksys_account_ms:app --reload --port 8082
 ```
 
 ## Lint project
